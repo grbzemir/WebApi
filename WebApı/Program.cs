@@ -12,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Örnek
 builder.Services.AddSingleton<IBrandService , BrandManager>();
 builder.Services.AddSingleton<IBrandDal, BrandDal>();
 
